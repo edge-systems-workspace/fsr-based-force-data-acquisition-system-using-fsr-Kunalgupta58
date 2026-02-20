@@ -20,11 +20,14 @@
 
 void setup() {
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+    // TODO 3: Initialize Serial communication
+    Serial.begin(9600);
 
-    // TODO 4:
-    // Print system initialization message
+    // TODO 4: Print system initialization message
+    Serial.println("=================================");
+    Serial.println("   FSR Force Measurement System  ");
+    Serial.println("   System Initialized Successfully");
+    Serial.println("=================================");
 }
 
 void loop() {
